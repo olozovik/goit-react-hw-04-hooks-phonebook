@@ -35,7 +35,7 @@ const App = () => {
       name,
       number,
     };
-    setContacts(prev => [...prev, newContact]);
+    setContacts([...contacts, newContact]);
   };
 
   const handleOnClickDelete = e => {
